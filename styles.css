@@ -8,6 +8,7 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   color: #285430;
+  text-align: center;
 }
 
 h3 {
@@ -16,9 +17,16 @@ h3 {
   color: #285430;
 }
 .skill-row{
-  width: 50%;
+  width: 70%;
   margin: auto;
-  text-align: center;
+  text-align: left;
+  line-height: 2;
+}
+.profile{
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
 }
 h2 {
   padding-top: 0px;
@@ -26,6 +34,7 @@ h2 {
   font-size: 2.5rem;
   color: #285430;
   font-weight: normal;
+  text-align: center;
 }
 
 body {
@@ -41,14 +50,15 @@ p {
 }
 
 hr {
-  border-color: #285430;
+  border-color: #5F8D4E;
   border-style: none;
   border-top-style: dotted;
   border-width: 6px;
+  /* border: dotted #285430 6px; */
   height: 0;
-  width: 5%;
+  width: 6%;
   text-align: center;
-  margin: 0 auto 0 auto;
+  margin: 70px auto;
 }
 .buttons:hover{
 background-color: #A4BE7B;
@@ -97,7 +107,7 @@ width: 220px;
   padding-bottom: 50px;
   width: 50%;
   margin: auto;
-  text-align: center;
+  text-align: left;
 }
 
 .bottom-container {
@@ -130,28 +140,26 @@ width: 220px;
   visibility: hidden;
 }
 
-#profilepic {
-  margin-top: 50px;
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
-}
-
 .pictures {
-  height: 250px;
-  width: 250px;
-  border-radius: 250px;
+  height: 125px;
+  width: 125px;
+  border-radius: 125px;
+  float: left;
+  margin-right: 30px;
 }
 
-#teaching {
-  height: 200px;
-  width: 350px;
-  border-radius: 150px;
+.pictures-right{
+  height: 125px;
+  width: 125px;
+  border-radius: 125px;
+  float: right;
+  margin-left: 30px;
 }
 
 .contact-me {
   position: relative;
   padding-bottom: 0px;
+  text-align: center;
 }
 
 #contact-info {
@@ -162,12 +170,31 @@ width: 220px;
   padding-bottom: 30px;
 }
 
-#btn {
-  color: #285430;
+.btn {
+  background: #4b8552;
+  background-image: -webkit-linear-gradient(top, #4b8552, #285430);
+  background-image: -moz-linear-gradient(top, #4b8552, #285430);
+  background-image: -ms-linear-gradient(top, #4b8552, #285430);
+  background-image: -o-linear-gradient(top, #4b8552, #285430);
+  background-image: linear-gradient(to bottom, #4b8552, #285430);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #E5D9B6;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-#btn:hover {
-  color: #E5D9B6;
+.btn:hover {
+  background: #5f8d4e;
+  background-image: -webkit-linear-gradient(top, #5f8d4e, #5f8a4d);
+  background-image: -moz-linear-gradient(top, #5f8d4e, #5f8a4d);
+  background-image: -ms-linear-gradient(top, #5f8d4e, #5f8a4d);
+  background-image: -o-linear-gradient(top, #5f8d4e, #5f8a4d);
+  background-image: linear-gradient(to bottom, #5f8d4e, #5f8a4d);
+  text-decoration: none;
 }
 
 #last-element {
